@@ -71,7 +71,7 @@ class MedicaidContainer extends PureComponent<Props, State> {
     const submit = () => {
       const payload = {
         filename: filename,
-        data: dataFileBuffer,
+        data: undefined,
       };
       parseMedicaid(payload);
     };
